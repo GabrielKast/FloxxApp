@@ -22,6 +22,11 @@ On clever-cloud,
       
 Locally : 
 
+ ## Pre-requisites
+ 1) you need sbt. See. https://www.scala-sbt.org/download.html
+ 2) You need node with a version>= v16.14.2 (installing nvm might help your day) and yarn
+ 3) You need docker and docker-compose. As docker-compose starts a db on port 5432, you must not have a postgres running in this port alreadyhttps://www.scala-sbt.org/download.html.
+ 
  ## Work with backend
 
 1) from the root directory run docker-compose up (should start postgres DB)
